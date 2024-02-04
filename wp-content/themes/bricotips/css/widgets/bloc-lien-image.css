@@ -1,0 +1,32 @@
+/* CSS POUR LE WIDGET .bloc-lien-image-widget */
+.bloc-lien-image-widget{
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+}
+
+.bloc-lien-image-widget:before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.bloc-lien-image-widget .titre {
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    font-size: 25px;
+}
